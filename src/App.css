@@ -1,0 +1,21 @@
+.app-container {
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 390px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .content-container {
+    gap: 15px;
+  }
+}
